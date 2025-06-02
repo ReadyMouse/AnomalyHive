@@ -2,9 +2,333 @@
 
 This document provides detailed breakdowns for each task in the MVP implementation, including specific steps, exit criteria, and testing requirements.
 
-## Phase 1: Core Smart Contract Development
+## Phase 1: Federated Learning Integration
 
-### Task 1: Create NEAR smart contract for model weight storage
+### Task 1: Clone and set up existing federated learning repository
+**Steps:**
+1. Clone the NEAR-based federated learning repository
+2. Review documentation and architecture
+3. Set up development environment
+4. Verify basic functionality
+5. Document key components and interfaces
+
+**Exit Criteria:**
+- Repository is successfully cloned
+- Development environment is configured
+- Basic functionality is verified
+- Documentation is reviewed and understood
+
+**Tests Required:**
+- Environment setup verification
+- Basic functionality tests
+- Documentation review
+
+### Task 2: Set up and test 2-node network configuration
+**Steps:**
+1. Configure network parameters
+2. Set up two test nodes
+3. Implement node communication
+4. Test basic message exchange
+5. Verify network stability
+
+**Exit Criteria:**
+- Two nodes can communicate
+- Network is stable
+- Message exchange works
+- Configuration is documented
+
+**Tests Required:**
+- Node communication tests
+- Network stability tests
+- Message exchange tests
+
+### Task 3: Test basic federated learning functionality
+**Steps:**
+1. Verify model initialization
+2. Test local training
+3. Validate model updates
+4. Check aggregation process
+5. Verify model distribution
+
+**Exit Criteria:**
+- Model initialization works
+- Local training functions
+- Updates are processed
+- Aggregation is successful
+- Models are distributed correctly
+
+**Tests Required:**
+- Initialization tests
+- Training tests
+- Update tests
+- Aggregation tests
+- Distribution tests
+
+### Task 4: Document integration points for anomaly detection
+**Steps:**
+1. Identify model input/output interfaces
+2. Document data flow requirements
+3. Map integration points
+4. Define interface contracts
+5. Create integration guide
+
+**Exit Criteria:**
+- Integration points are identified
+- Data flow is documented
+- Interface contracts are defined
+- Integration guide is complete
+
+**Tests Required:**
+- Interface verification
+- Documentation review
+- Contract validation
+
+## Phase 2: Anomaly Detection Pipeline
+
+### Task 5: Set up class structures and interfaces for modular algorithm framework
+**Steps:**
+1. Define base algorithm interface
+2. Create algorithm container structure
+3. Implement configuration interface
+4. Set up algorithm lifecycle management
+5. Create algorithm registration system
+
+**Exit Criteria:**
+- Base interface is defined
+- Container structure works
+- Configuration system is functional
+- Lifecycle management works
+- Registration system is operational
+
+**Tests Required:**
+- Interface tests
+- Container tests
+- Configuration tests
+- Lifecycle tests
+- Registration tests
+
+### Task 6: Implement algorithm configuration system
+**Steps:**
+1. Create configuration schema
+2. Implement parameter validation
+3. Add configuration loading
+4. Create configuration storage
+5. Implement configuration updates
+
+**Exit Criteria:**
+- Schema is complete
+- Validation works
+- Loading functions
+- Storage is effective
+- Updates are handled
+
+**Tests Required:**
+- Schema tests
+- Validation tests
+- Loading tests
+- Storage tests
+- Update tests
+
+### Task 7: Create pipeline orchestration layer
+**Steps:**
+1. Implement pipeline structure
+2. Create component connectors
+3. Add flow control
+4. Implement error handling
+5. Create monitoring points
+
+**Exit Criteria:**
+- Pipeline structure works
+- Components connect properly
+- Flow control is effective
+- Errors are handled
+- Monitoring is in place
+
+**Tests Required:**
+- Structure tests
+- Connection tests
+- Flow control tests
+- Error handling tests
+- Monitoring tests
+
+### Task 8: Create data ingestion interface for single blockchain
+**Steps:**
+1. Define data schema
+2. Implement data loading
+3. Create validation rules
+4. Add error handling
+5. Implement data transformation
+
+**Exit Criteria:**
+- Schema is complete
+- Data loads correctly
+- Validation works
+- Errors are handled
+- Transformation is effective
+
+**Tests Required:**
+- Schema tests
+- Loading tests
+- Validation tests
+- Error handling tests
+- Transformation tests
+
+### Task 9: Implement basic data preprocessing (as needed)
+**Steps:**
+1. Identify preprocessing requirements
+2. Implement required transformations
+3. Add validation
+4. Create error handling
+5. Document transformations
+
+**Exit Criteria:**
+- Requirements are met
+- Transformations work
+- Validation is effective
+- Errors are handled
+- Documentation is complete
+
+**Tests Required:**
+- Requirement tests
+- Transformation tests
+- Validation tests
+- Error handling tests
+
+### Task 10: Set up data validation
+**Steps:**
+1. Define validation rules
+2. Implement validation checks
+3. Create error reporting
+4. Add data quality metrics
+5. Implement recovery procedures
+
+**Exit Criteria:**
+- Rules are implemented
+- Checks are effective
+- Error reporting works
+- Quality metrics are tracked
+- Recovery procedures work
+
+**Tests Required:**
+- Rule tests
+- Check tests
+- Error reporting tests
+- Quality metric tests
+- Recovery tests
+
+### Task 11: Implement single anomaly detection algorithm
+**Steps:**
+1. Select initial algorithm
+2. Implement algorithm logic
+3. Create input/output handlers
+4. Add performance metrics
+5. Implement error handling
+
+**Exit Criteria:**
+- Algorithm is implemented
+- Logic works correctly
+- Handlers are functional
+- Metrics are tracked
+- Errors are handled
+
+**Tests Required:**
+- Algorithm tests
+- Logic tests
+- Handler tests
+- Metric tests
+- Error handling tests
+
+### Task 12: Set up metrics storage
+**Steps:**
+1. Define metrics schema
+2. Implement storage system
+3. Create retrieval methods
+4. Add aggregation functions
+5. Implement cleanup procedures
+
+**Exit Criteria:**
+- Schema is complete
+- Storage works
+- Retrieval functions
+- Aggregation works
+- Cleanup is effective
+
+**Tests Required:**
+- Schema tests
+- Storage tests
+- Retrieval tests
+- Aggregation tests
+- Cleanup tests
+
+### Task 13: Implement basic fusion algorithm
+**Steps:**
+1. Define fusion strategy
+2. Implement fusion logic
+3. Create result handling
+4. Add validation
+5. Implement error handling
+
+**Exit Criteria:**
+- Strategy is defined
+- Logic works
+- Results are handled
+- Validation is effective
+- Errors are managed
+
+**Tests Required:**
+- Strategy tests
+- Logic tests
+- Result handling tests
+- Validation tests
+- Error handling tests
+
+### Task 14: Set up confidence scoring
+**Steps:**
+1. Define scoring methodology
+2. Implement scoring logic
+3. Create threshold system
+4. Add validation
+5. Implement error handling
+
+**Exit Criteria:**
+- Methodology is defined
+- Logic works
+- Thresholds are effective
+- Validation works
+- Errors are handled
+
+**Tests Required:**
+- Methodology tests
+- Logic tests
+- Threshold tests
+- Validation tests
+- Error handling tests
+
+### Task 15: Roll the marble: end-to-end testing
+**Steps:**
+1. Set up test environment
+2. Create test scenarios
+3. Implement test execution
+4. Add result validation
+5. Document test results
+
+**Exit Criteria:**
+- Environment is ready
+- Scenarios are complete
+- Execution works
+- Results are validated
+- Documentation is complete
+
+**Tests Required:**
+- Environment tests
+- Scenario tests
+- Execution tests
+- Validation tests
+- Documentation review
+
+## Phase 3: Core Smart Contract Development
+
+### Task 16: Create NEAR smart contract for model weight storage
 **Steps:**
 1. Set up NEAR development environment
 2. Create contract structure for weight storage
@@ -24,7 +348,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Gas usage tests
 - Storage limit tests
 
-### Task 2: Implement basic model update submission function
+### Task 17: Implement basic model update submission function
 **Steps:**
 1. Create update submission structure
 2. Implement validation logic
@@ -44,7 +368,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Error handling tests
 - Status tracking tests
 
-### Task 3: Create model aggregation contract
+### Task 18: Create model aggregation contract
 **Steps:**
 1. Implement weight averaging logic
 2. Create aggregation scheduling
@@ -64,7 +388,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Validation tests
 - Security check tests
 
-### Task 4: Set up basic reward mechanism for participation
+### Task 19: Set up basic reward mechanism for participation
 **Steps:**
 1. Create reward calculation logic
 2. Implement reward distribution
@@ -85,7 +409,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Participation tracking tests
 - Security tests
 
-### Task 5: Implement basic encryption for model weights
+### Task 20: Implement basic encryption for model weights
 **Steps:**
 1. Select encryption algorithm
 2. Implement encryption functions
@@ -105,7 +429,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Performance tests
 - Security tests
 
-### Task 6: Create secure communication channel between nodes
+### Task 21: Create secure communication channel between nodes
 **Steps:**
 1. Implement secure handshake protocol
 2. Create message encryption
@@ -126,7 +450,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Validation tests
 - Connection management tests
 
-### Task 7: Set up basic access control for model updates
+### Task 22: Set up basic access control for model updates
 **Steps:**
 1. Create access control list
 2. Implement permission checks
@@ -147,9 +471,9 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Role management tests
 - Logging tests
 
-## Phase 2: Federated Learning Core
+## Phase 4: Federated Learning Core
 
-### Task 8: Set up basic Rust project structure
+### Task 23: Set up basic Rust project structure
 **Steps:**
 1. Create project directory structure
 2. Set up Cargo.toml
@@ -168,7 +492,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Dependency tests
 - Module structure tests
 
-### Task 9: Implement simple fraud detection model architecture
+### Task 24: Implement simple fraud detection model architecture
 **Steps:**
 1. Define model architecture
 2. Implement model layers
@@ -189,7 +513,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Optimization tests
 - Memory usage tests
 
-### Task 10: Create local training loop
+### Task 25: Create local training loop
 **Steps:**
 1. Implement data loading
 2. Create training iteration
@@ -210,7 +534,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Validation tests
 - Checkpoint tests
 
-### Task 11: Implement basic model serialization/deserialization
+### Task 26: Implement basic model serialization/deserialization
 **Steps:**
 1. Create serialization format
 2. Implement save function
@@ -230,7 +554,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Version control tests
 - Performance tests
 
-### Task 12: Create node discovery mechanism
+### Task 27: Create node discovery mechanism
 **Steps:**
 1. Implement node registration
 2. Create discovery protocol
@@ -250,7 +574,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Health check tests
 - Security tests
 
-### Task 13: Implement basic peer-to-peer communication
+### Task 28: Implement basic peer-to-peer communication
 **Steps:**
 1. Create message protocol
 2. Implement message handling
@@ -270,7 +594,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Error handling tests
 - Retry logic tests
 
-### Task 14: Set up secure channel for model weight exchange
+### Task 29: Set up secure channel for model weight exchange
 **Steps:**
 1. Implement encryption
 2. Create secure channel
@@ -291,7 +615,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Validation tests
 - Error handling tests
 
-### Task 15: Create node synchronization protocol
+### Task 30: Create node synchronization protocol
 **Steps:**
 1. Implement sync protocol
 2. Create state management
@@ -312,9 +636,9 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Conflict resolution tests
 - Recovery tests
 
-## Phase 3: Data Integration
+## Phase 5: Data Integration
 
-### Task 16: Create transaction data structure
+### Task 31: Create transaction data structure
 **Steps:**
 1. Define data schema
 2. Implement data types
@@ -335,7 +659,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Validation tests
 - Serialization tests
 
-### Task 17: Implement basic data preprocessing
+### Task 32: Implement basic data preprocessing
 **Steps:**
 1. Create preprocessing pipeline
 2. Implement normalization
@@ -356,7 +680,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Feature extraction tests
 - Validation tests
 
-### Task 18: Set up local data storage
+### Task 33: Set up local data storage
 **Steps:**
 1. Create storage structure
 2. Implement CRUD operations
@@ -377,7 +701,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Indexing tests
 - Backup tests
 
-### Task 19: Create data validation mechanism
+### Task 34: Create data validation mechanism
 **Steps:**
 1. Implement validation rules
 2. Create validation pipeline
@@ -398,7 +722,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Error reporting tests
 - Recovery tests
 
-### Task 20: Set up NEAR account management
+### Task 35: Set up NEAR account management
 **Steps:**
 1. Create account structure
 2. Implement account creation
@@ -418,7 +742,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Permission tests
 - Security tests
 
-### Task 21: Implement transaction submission
+### Task 36: Implement transaction submission
 **Steps:**
 1. Create transaction structure
 2. Implement submission
@@ -438,7 +762,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Error handling tests
 - Monitoring tests
 
-### Task 22: Create contract interaction layer
+### Task 37: Create contract interaction layer
 **Steps:**
 1. Implement contract calls
 2. Create response handling
@@ -459,7 +783,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Error handling tests
 - Retry tests
 
-### Task 23: Set up basic error handling
+### Task 38: Set up basic error handling
 **Steps:**
 1. Create error types
 2. Implement error handling
@@ -479,9 +803,9 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Logging tests
 - Monitoring tests
 
-## Phase 4: Testing & Deployment
+## Phase 6: Testing & Deployment
 
-### Task 24: Create test data generator
+### Task 39: Create test data generator
 **Steps:**
 1. Define data patterns
 2. Implement generation
@@ -502,7 +826,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Validation tests
 - Variety tests
 
-### Task 25: Implement basic unit tests
+### Task 40: Implement basic unit tests
 **Steps:**
 1. Create test framework
 2. Implement test cases
@@ -523,7 +847,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Assertion tests
 - Mock tests
 
-### Task 26: Set up integration tests
+### Task 41: Set up integration tests
 **Steps:**
 1. Create test environment
 2. Implement test scenarios
@@ -544,7 +868,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Cleanup tests
 - Reporting tests
 
-### Task 27: Create local network testing environment
+### Task 42: Create local network testing environment
 **Steps:**
 1. Set up local network
 2. Implement node simulation
@@ -565,7 +889,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Monitoring tests
 - Logging tests
 
-### Task 28: Deploy smart contracts to NEAR testnet
+### Task 43: Deploy smart contracts to NEAR testnet
 **Steps:**
 1. Prepare contracts
 2. Create deployment script
@@ -586,7 +910,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Verification tests
 - Monitoring tests
 
-### Task 29: Set up two test nodes
+### Task 44: Set up two test nodes
 **Steps:**
 1. Configure nodes
 2. Implement communication
@@ -607,7 +931,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Monitoring tests
 - Logging tests
 
-### Task 30: Create deployment scripts
+### Task 45: Create deployment scripts
 **Steps:**
 1. Create deployment logic
 2. Implement validation
@@ -628,7 +952,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Error handling tests
 - Logging tests
 
-### Task 31: Document deployment process
+### Task 46: Document deployment process
 **Steps:**
 1. Create process documentation
 2. Add requirements
@@ -649,9 +973,9 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Troubleshooting tests
 - Example tests
 
-## Phase 5: Basic UI
+## Phase 7: Basic UI
 
-### Task 32: Create basic node status display
+### Task 47: Create basic node status display
 **Steps:**
 1. Create UI components
 2. Implement status updates
@@ -672,7 +996,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Error display tests
 - Styling tests
 
-### Task 33: Implement model performance metrics
+### Task 48: Implement model performance metrics
 **Steps:**
 1. Create metric components
 2. Implement data collection
@@ -693,7 +1017,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Visualization tests
 - Update tests
 
-### Task 34: Add basic training controls
+### Task 49: Add basic training controls
 **Steps:**
 1. Create control components
 2. Implement actions
@@ -714,7 +1038,7 @@ This document provides detailed breakdowns for each task in the MVP implementati
 - Validation tests
 - Feedback tests
 
-### Task 35: Create simple visualization of results
+### Task 50: Create simple visualization of results
 **Steps:**
 1. Create visualization components
 2. Implement data processing

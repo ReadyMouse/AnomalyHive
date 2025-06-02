@@ -5,62 +5,49 @@ This document outlines the essential tasks required to build a minimum viable pr
 ## Phase 1: Federated Learning Integration
 **Setup and Configuration**
    - [ ] Task 1: Clone and set up existing federated learning repository
-   - [ ] Task 2: Configure basic network parameters for 2-node setup
+   - [ ] Task 2: Set up and test 2-node network configuration
    - [ ] Task 3: Test basic federated learning functionality
    - [ ] Task 4: Document integration points for anomaly detection
 
-**Basic Network Testing**
-   - [ ] Task 5: Set up local test environment
-   - [ ] Task 6: Verify node-to-node communication
-   - [ ] Task 7: Validate basic training rounds
-
 ## Phase 2: Anomaly Detection Pipeline
 **Framework Setup**
-   - [ ] Task 9: Set up class structures and interfaces for modular algorithm framework
-   - [ ] Task 10: Implement algorithm configuration system
-   - [ ] Task 11: Create pipeline orchestration layer
+   - [ ] Task 5: Set up class structures and interfaces for modular algorithm framework
+   - [ ] Task 6: Implement algorithm configuration system
+   - [ ] Task 7: Create pipeline orchestration layer
 
 **Data Ingestion**
-   - [ ] Task 12: Create data ingestion interface
-   - [ ] Task 13: Implement basic data preprocessing
-   - [ ] Task 14: Set up data validation
+   - [ ] Task 8: Create data ingestion interface for single blockchain
+   - [ ] Task 9: Implement basic data preprocessing (as needed)
+   - [ ] Task 10: Set up data validation
 
 **Metrics**
-   - [ ] Task 15: Implement single anomaly detection algorithm
-   - [ ] Task 16: Set up metrics storage
-   - [ ] Task 17: Implement basic evaluation metrics
+   - [ ] Task 11: Implement single anomaly detection algorithm
+   - [ ] Task 12: Set up metrics storage
 
 **Data Fusion**
-   - [ ] Task 18: Implement basic fusion algorithm
-   - [ ] Task 19: Set up confidence scoring
+   - [ ] Task 13: Implement basic fusion algorithm
+   - [ ] Task 14: Set up confidence scoring
 
 **Pipeline Integration**
-   - [ ] Task 20: Create end-to-end testing
+   - [ ] Task 15: Roll the marble: end-to-end testing
 
 ## Phase 3: NEAR Integration
-**Smart Contract Development**
-   - [ ] Task 21: Create basic model storage contract
-   - [ ] Task 22: Implement model update submission
-   - [ ] Task 23: Create contract interaction layer
-
-**Blockchain Integration**
-   - [ ] Task 24: Set up NEAR account management
-   - [ ] Task 25: Implement transaction submission
-   - [ ] Task 26: Create secure communication channel
-   - [ ] Task 27: Set up basic error handling
+**Integration with Federated Learning**
+   - [ ] Task 16: Set up NEAR account and permissions
+   - [ ] Task 17: Connect anomaly detection pipeline to federated learning nodes
+   - [ ] Task 18: Test integrated system
 
 ## Phase 4: Testing & Deployment
 **Local Testing**
-   - [ ] Task 28: Create test data generator
-   - [ ] Task 29: Implement unit tests for anomaly detection
-   - [ ] Task 30: Set up integration tests
-   - [ ] Task 31: Create end-to-end testing environment
+   - [ ] Task 19: Implement unit tests for anomaly detection
+   - [ ] Task 20: Set up integration tests
+   - [ ] Task 21: Create end-to-end testing environment
 
 **Deployment**
-   - [ ] Task 32: Deploy smart contracts to NEAR testnet
-   - [ ] Task 33: Set up test nodes
-   - [ ] Task 34: Create deployment scripts
-   - [ ] Task 35: Document deployment process
+   - [ ] Task 22: Deploy to NEAR testnet
+   - [ ] Task 23: Set up test nodes
+   - [ ] Task 24: Create deployment scripts
+   - [ ] Task 25: Document deployment process
 
 ## Technical Requirements
 - Existing federated learning codebase
