@@ -19,6 +19,10 @@ AnomalyHive, a neighborhood watch for DeFi on DePin, where everyone gets paid to
 - See MVP_TASKS.md
 - See TASK_DETAILS.md
 
+## The Next Level Down 
+
+![AnomalyHive Block Diagram](docs/images/anomaly_block_diagram.png)
+
 ## Resources
 Federated Learning on NEAR: https://github.com/kamalbuilds/decentralised-federated-learning-platform
 
